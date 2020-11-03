@@ -207,7 +207,10 @@ function evaluateHand(hands) {
 	}
 }
 const Discord = require('discord.js');
-
+/*
+	BUG: Multiple Users playing at once, will give same initial cards
+	BUG: Same user can spam the command while in an existince instance.
+*/
 module.exports = {
 	name: 'poker',
 	description: 'Casino game poker - 5 card',
