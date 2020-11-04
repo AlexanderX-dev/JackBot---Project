@@ -6,7 +6,7 @@ const Discord = require('discord.js');
 
 module.exports = {
 	name: 'roulette',
-	description: 'Casino game Roulette 0 - 18 \nGreen: 0 \nRed: 1 - 17 Odds \nBlack: 2 - 18 Evens',
+	description: 'Casino game Roulette 0 - 36 \nGreen: 0 \nRed: 1 - 35 Odds \nBlack: 2 - 36 Evens',
 	usage: '<green/black/red>',
 	args: true,
 	execute(message, args) {

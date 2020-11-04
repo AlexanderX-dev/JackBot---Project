@@ -223,7 +223,7 @@ module.exports = {
 
 		const handEmbed = new Discord.MessageEmbed()
 			.setColor('#A6DAE8')
-			.setAuthor('You Hand', 'https://i.imgur.com/OSJbvbQ.png')
+			.setAuthor('Your Hand', 'https://i.imgur.com/OSJbvbQ.png')
 			.setDescription(printHand())
 			.addField('**Instructions:**', 'React 1 - 5 locks the corresponding card\nReact OK to draw new cards for non-locked cards')
 			.setFooter('JackBot will time out in 30 seconds');

@@ -1,4 +1,4 @@
-const symbols = ['coin', 'dollar', 'money_with_wings', 'moneybag'];
+// const symbols = ['coin', 'dollar', 'money_with_wings', 'moneybag'];
 const roll = [];
 
 function prob(symbol, value) {
@@ -23,6 +23,7 @@ function generateRoll() {
 		}
 	}
 }
+/*
 function cycleSlotMachine() {
 	while (true) {
 		setTimeout(firstRoll(), 1500);
@@ -39,6 +40,7 @@ function secondRoll() {
 function thirdRoll() {
 
 }
+*/
 function printTopandBot() {
 	const output = '-----------------';
 	return output;
@@ -79,7 +81,7 @@ module.exports = {
 	usage: '',
 	execute(message) {
 		generateRoll();
-
+		// cycle animation here
 		const Embed = new Discord.MessageEmbed()
 			.setColor('#FF763B')
 			.setAuthor('Slot results', 'https://i.imgur.com/OSJbvbQ.png')
